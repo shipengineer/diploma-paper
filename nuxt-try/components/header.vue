@@ -12,11 +12,11 @@ const time = ref((new Date).getHours())
 <style lang="scss">
 @font-face{
     font-family: 'TildaSemibold';
-    src:url('@/fonts/TildaSans-Semibold.woff2'),url('@/fonts/._TildaSans-Semibold')
+    src:url('@/public/fonts/TildaSans-Semibold.woff2'),url('@/public/fonts/._TildaSans-Semibold.woff')
 }
 @font-face{
     font-family: 'TildaRegular';
-    src:url('@/fonts/TildaSans-Regular.woff2'),url('@/fonts/._TildaSans-Regular')
+    src:url('@/public/fonts/TildaSans-Regular.woff2'),url('@/public/fonts/._TildaSans-Regular.woff2')
 }
 .header{
     flex: 0 0 100%;
